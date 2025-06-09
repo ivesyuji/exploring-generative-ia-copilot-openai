@@ -1,6 +1,8 @@
 ## IA Generativa: 
 Ela se concentra em imitar o comportamento humano usando técnicas de aprendizado de máquina, permitindo que os modelos interajam com o ambiente e executem tarefas sem instruções explícitas sobre o que gerar. Em vez de apenas analisar ou classificar dados existentes, a IA generativa é capaz de produzir conteúdo original, como texto, imagens, áudio e vídeo.
 
+![](images/01.png)
+
 ## Modelo de Linguagens Grandes
 
 Os aplicativos de IA generativas são alimentados por LLMs, que são um tipo especializado de modelo de Machine Learning que você pode usar para executar tarefas de PLN (Processamento de Linguagem Natural), incluindo
@@ -30,8 +32,7 @@ A primeira etapa no treinamento de um modelo de transformador é decompor o text
 
 As relações entre tokens são capturadas como vetores, conhecidos como inserções.
 
-![[Pasted image 20250324141115.png]]
-
+![](images/02.png)
 
 ### Modelo de Atenção
 
@@ -103,22 +104,24 @@ Você pode usar vários métodos para desenvolver soluções do Azure OpenAI:
 - Experimente modelos Azure OpenAI sem codificação
 - Use a configuração do assistente para instruir o modelo sobre como ele deve se comportar
 
-![[Pasted image 20250325130938.png]]
+![](images/03.png)
 
 ## Funcionalidades de Linguagem Natural do OpenAI do Azure
 
 Os modelos de GPT (transformadores pré-treinados generativos) são excelentes para entender e criar linguagem natural.
 ### Exemplo
-![[Pasted image 20250325131316.png]]
+
+![](images/04.png)
+
 ### Resposta
-![[Pasted image 20250325131334.png]]
+
+![](images/05.png)
 
 Os modelos GPT traduzem linguagem natural ou trechos de código em código.
 
 A geração de código vai além de apenas escrever código a partir de prompts em linguagem natural.
 
-![[Pasted image 20250325131517.png]]
-![[Pasted image 20250325131520.png]]
+![](images/06.png)
 
 ### Geração de Imagens
 
@@ -132,7 +135,7 @@ variações de imagem podem ser criadas fornecendo uma imagem e especificando qu
 
 Prompt: “Crie quatro variações da imagem de um elefante com um hambúrguer.”
 
-![[Pasted image 20250325131643.png]]
+![](images/07.png)
 
 
 
