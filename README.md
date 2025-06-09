@@ -148,5 +148,8 @@ Prompt: “Crie quatro variações da imagem de um elefante com um hambúrguer.�
 
 ![](images/07.png)
 
-
+## Documentações Oficiais 
+Explore generative AI with Microsoft Copilot - Laboratório no Microsoft Learning
+Explore Azure OpenAI - Laboratório no Microsoft Learning
+Explore content filters in Azure OpenAI - Laboratório no Microsoft Learning
 
