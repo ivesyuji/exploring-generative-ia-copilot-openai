@@ -1,3 +1,14 @@
+# Descrição do Desafio
+Este laboratório tem como objetivo explorar as funcionalidades do Copiloto e das ferramentas da OpenAI, com ênfase nos filtros de conteúdo e nos recursos de criação assistida por inteligência artificial. O entregável consiste em um repositório organizado com exemplos de uso, prompts aplicados e anotações sobre os aprendizados adquiridos.
+
+## Objetivos de Aprendizagem 
+Ao concluir este desafio, você será capaz de: 
+
+Aplicar os conceitos aprendidos em um ambiente prático;
+Documentar processos técnicos de forma clara e estruturada; 
+Utilizar o GitHub como ferramenta para compartilhamento de documentação técnica. 
+
+
 ## IA Generativa: 
 Ela se concentra em imitar o comportamento humano usando técnicas de aprendizado de máquina, permitindo que os modelos interajam com o ambiente e executem tarefas sem instruções explícitas sobre o que gerar. Em vez de apenas analisar ou classificar dados existentes, a IA generativa é capaz de produzir conteúdo original, como texto, imagens, áudio e vídeo.
 
