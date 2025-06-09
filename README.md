@@ -56,7 +56,7 @@ Os copilotos são frequentemente integrados a outros aplicativos e fornecem uma 
 - Os desenvolvedores podem criar copilotos que enviam prompts para grandes modelos de linguagem e geram conteúdo para uso em aplicativos.
 - Os usuários empresariais podem usar copilotos para aumentar sua produtividade e criatividade com conteúdo gerado por IA.
 
-## Engenharia de Prompts
+Engenharia de Prompts
 O termo engenharia de prompts descreve o processo de aprimoramento e otimização de prompts (as instruções ou perguntas dadas a um modelo de IA generativa) para obter respostas de melhor qualidade e mais relevantes. É a arte e a ciência de se comunicar eficazmente com a IA.
 
 Tanto os desenvolvedores que projetam aplicativos de IA quanto os consumidores que usam esses aplicativos podem aprimorar a qualidade das respostas da IA generativa utilizando diversas técnicas:
@@ -66,7 +66,73 @@ Mensagens do Sistema (System Messages): Para chatbots e agentes de IA, as mensag
 Fornecer Exemplos (Few-Shot Learning): Incluir exemplos de entrada e saída esperada no seu prompt (conhecido como "few-shot learning") ajuda o modelo a entender o padrão e o formato desejado para a resposta.
 Dados de Fundamentação (Grounding Data): Fornecer informações adicionais ou contexto relevante (chamado de "grounding data") diretamente no prompt ou através de uma recuperação de informações, ajuda o modelo a basear suas respostas em fatos específicos e a evitar "alucinações".
 
+## OpenAI do Azure
+ 
+ É a solução de nuvem da Microsoft para implantar, personalizar e hospedar modelos de linguagens grandes.
 
+## O serviço OpenAI do Azure consiste em:
+
+- Modelos de IA gerativa predefinidos.
+- Funcionalidades de personalização
+- Ferramentas integradas para detectar e mitigar casos de uso prejudiciais para que os usuários possam implementar a IA com responsabilidade
+- Segurança corporativa com RBAC (controle de acesso baseado em função) e redes privadas.
+
+Você pode usar vários métodos para desenvolver soluções do Azure OpenAI:
+
+- Estúdio de IA do Azure,
+- API REST,
+- SDKs com suporte e CLI do Azure.
+
+## Modelos Suportados
+
+- GPT-4 (Um conjunto de modelos que melhoram o GPT-3.5 e podem compreender e gerar linguagem e código naturais.)
+- DALL-E (visualização) (Uma série de modelos em pré-visualização que podem gerar imagens originais a partir de linguagem natural.)
+- GPT-3.5
+- Incorporações (Um conjunto de modelos que podem converter texto em um formulário de vetor numérico para facilitar a similaridade de texto.)
+
+## Como Utilizar o OpenAI do Azure
+
+### Estúdio Azure OpenAI:
+
+- Crie e implante modelos de IA para aplicativos de software
+- Alimentado por modelos generativos de IA otimizados para diversas tarefas
+- Criar e implantar modelos de IA para aplicativos de software
+- Alimentado por modelos de IA gerativa otimizados para tarefas diversas
+### Playgrounds:
+
+- Experimente modelos Azure OpenAI sem codificação
+- Use a configuração do assistente para instruir o modelo sobre como ele deve se comportar
+
+![[Pasted image 20250325130938.png]]
+
+## Funcionalidades de Linguagem Natural do OpenAI do Azure
+
+Os modelos de GPT (transformadores pré-treinados generativos) são excelentes para entender e criar linguagem natural.
+### Exemplo
+![[Pasted image 20250325131316.png]]
+### Resposta
+![[Pasted image 20250325131334.png]]
+
+Os modelos GPT traduzem linguagem natural ou trechos de código em código.
+
+A geração de código vai além de apenas escrever código a partir de prompts em linguagem natural.
+
+![[Pasted image 20250325131517.png]]
+![[Pasted image 20250325131520.png]]
+
+### Geração de Imagens
+
+Os modelos de IA gerativa podem editar e criar imagens. O modelo que funciona com imagens é chamado DELL-E, que dá suporte à criação de imagem, edição de imagem e criação de variações de imagem.
+
+Com o DALL-E você pode até solicitar uma imagem em um determinado estilo. Os estilos também podem ser usados para edições e variações.
+
+DALL-E pode editar a imagem conforme solicitado, alterando seu estilo, adicionando ou removendo itens ou gerando novo conteúdo para adicionar.
+
+variações de imagem podem ser criadas fornecendo uma imagem e especificando quantas variações da imagem você deseja.
+
+Prompt: “Crie quatro variações da imagem de um elefante com um hambúrguer.”
+
+![[Pasted image 20250325131643.png]]
 
 
 
